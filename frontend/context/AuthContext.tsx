@@ -27,6 +27,19 @@ import {
   setDoc,
 } from "firebase/firestore";
 
+// import 'react-native-get-random-values';
+// import { hmac } from '@noble/hashes/hmac';
+// import { sha256 } from '@noble/hashes/sha256';
+// import { sha512 } from '@noble/hashes/sha512';
+// ed.etc.sha512Sync = (...m) => sha512(ed.etc.concatBytes(...m));
+// ed.etc.sha512Async = (...m) => Promise.resolve(ed.etc.sha512Sync(...m));
+
+// secp.etc.hmacSha256Sync = (k, ...m) =>
+//   hmac(sha256, k, secp.etc.concatBytes(...m));
+// secp.etc.hmacSha256Async = (k, ...m) =>
+//   Promise.resolve(secp.etc.hmacSha256Sync(k, ...m));
+
+
 type Session = string | undefined;
 
 interface DataItem {
